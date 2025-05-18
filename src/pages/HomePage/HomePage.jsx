@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { getHomePageMovies } from "../../services/api";
 import { useEffect, useState } from "react";
-import MovieList from "../../components/MovieList/MovieList";
+import MovieList from "../../asda/MovieList/MovieList";
 
 export default function HomePage() {
   const location = useLocation();

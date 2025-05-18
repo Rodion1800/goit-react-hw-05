@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { getMovies } from "../../services/api";
 import { useDebounce } from "use-debounce";
-import MovieList from "../../components/MovieList/MovieList";
+import MovieList from "../../asda/MovieList/MovieList";
 
 export default function MoviesPage() {
   const [movies, setMovies] = useState([]);
