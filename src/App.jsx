@@ -1,8 +1,8 @@
-import Navigation from "./asda/Navigation/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import MovieCast from "./asda/MovieCast/MovieCast";
-import MovieReview from "./asda/MovieReviews/MovieReviews";
+import MovieCast from "./components/MovieCast/MovieCast";
+import MovieReview from "./components/MovieReviews/MovieReviews";
 import GlobalStyles from "./GlobalStyles";
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage"));
